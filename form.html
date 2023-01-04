@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment form</title>
+    <link rel="stylesheet" href="form.css">
+</head>
+<body>
+     <form>
+    <h1>Payment Form</h1>
+    <label for="name">Name:
+        <input id="name" type="text" placeholder="Enter your name">
+    </label>
+    <label for="father's name">Father's Name:
+        <input id="father's name" type="text" placeholder="Enter your father's name">
+    </label>
+    <label for="mother's name">Mother's Name:
+        <input id="mother's name" type="text" placeholder="Enter your mother's name">
+    </label>
+    <label for="email">Email
+        <input type="email"  id="email" placeholder="Enter your email address">
+    </label>
+    <label for="Address">Address
+       <textarea name="addrerss" id="address" cols="50" rows="3"></textarea>
+        
+    </label>
+    <fieldset>
+        <legend style="border: 1px solid black;">Select your Gender</legend>
+        <label for="male">Male
+        <input type="radio" name="male"  id="male">
+    </label>
+        <!-- <legend>Select your Gender</legend> -->
+        <label for="female">Female
+        <input type="radio" name="female" id="female">
+
+    </label>
+    <label for="Custom">Custom 
+        <input type="radio" name="custom"  id="custom">
+    </label>
+    </fieldset>
+    
+    <fieldset>
+        <legend>Slect your Payment Method</legend>
+        <label for="bKash">bKash
+        <input type="radio" name="bKash" id="bKash">
+    </label>
+    <label for="nagad">Nagad
+        <input type="radio" name="nagad" id="nagad">
+    </label>
+    <label for="rocket">Rocket
+        <input type="radio" name="rocket" id="rocket">
+    </label>
+    <label for="bank account">Bank Account
+        <input type="radio" name="bank account" id="bank account">
+    </label>
+    </fieldset>
+    <input type="reset" value="Reset">
+    <input type="submit" value="submit">
+    
+</form>
+
+</body>
+</html>
